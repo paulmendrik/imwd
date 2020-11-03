@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ce4092f-b313-4252-8ac6-e140efd5251a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1gDr6pIt0wP4r0VzhFD3MpnOK8c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ce4092f-b313-4252-8ac6-e140efd5251a" name="Default Changelist" comment="" />
+      <created>1597659831453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597659831453</updated>
+      <workItem from="1597659832751" duration="6432000" />
+      <workItem from="1597735836646" duration="14172000" />
+      <workItem from="1597819596853" duration="9779000" />
+      <workItem from="1597849317599" duration="262000" />
+      <workItem from="1597927450319" duration="3645000" />
+      <workItem from="1597932487589" duration="2480000" />
+      <workItem from="1597935125042" duration="379000" />
+      <workItem from="1597996978884" duration="1810000" />
+      <workItem from="1597998951966" duration="7860000" />
+      <workItem from="1598254438005" duration="6777000" />
+      <workItem from="1598261870818" duration="503000" />
+      <workItem from="1598267983122" duration="401000" />
+      <workItem from="1598269755186" duration="2010000" />
+      <workItem from="1598283083510" duration="1817000" />
+      <workItem from="1598343790114" duration="11451000" />
+      <workItem from="1598433557297" duration="509000" />
+      <workItem from="1598510964835" duration="379000" />
+      <workItem from="1598688087463" duration="444000" />
+      <workItem from="1598689733501" duration="6830000" />
+      <workItem from="1598697361101" duration="509000" />
+      <workItem from="1598865120820" duration="799000" />
+      <workItem from="1598949669275" duration="6683000" />
+      <workItem from="1599125697176" duration="3678000" />
+      <workItem from="1599136662656" duration="6646000" />
+      <workItem from="1599218335229" duration="1780000" />
+      <workItem from="1599302286403" duration="6889000" />
+      <workItem from="1599471117953" duration="4893000" />
+      <workItem from="1599480712292" duration="2607000" />
+      <workItem from="1599483891602" duration="6073000" />
+      <workItem from="1599641114051" duration="13732000" />
+      <workItem from="1601377127753" duration="4777000" />
+      <workItem from="1601540140138" duration="21998000" />
+      <workItem from="1601622841352" duration="14381000" />
+      <workItem from="1601647282491" duration="2093000" />
+      <workItem from="1601718078048" duration="7064000" />
+      <workItem from="1601733133913" duration="764000" />
+      <workItem from="1601797993199" duration="499000" />
+      <workItem from="1601798570495" duration="103000" />
+      <workItem from="1601798709811" duration="409000" />
+      <workItem from="1601799142807" duration="1726000" />
+      <workItem from="1601801392204" duration="42000" />
+      <workItem from="1601802253899" duration="1459000" />
+      <workItem from="1601883318014" duration="9015000" />
+      <workItem from="1601893755536" duration="2785000" />
+      <workItem from="1601898776223" duration="8512000" />
+      <workItem from="1601989511560" duration="6824000" />
+      <workItem from="1602074015227" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="750" y="277" key="#Custom_Plugin_Repositories" timestamp="1601798986692">
+      <screen x="0" y="23" width="2048" height="1042" />
+    </state>
+    <state x="750" y="277" key="#Custom_Plugin_Repositories/0.23.2048.1042@0.23.2048.1042" timestamp="1601798986692" />
+    <state x="688" y="332" key="#Notifications" timestamp="1597659940197">
+      <screen x="0" y="23" width="2048" height="1042" />
+    </state>
+    <state x="688" y="332" key="#Notifications/0.23.2048.1042@0.23.2048.1042" timestamp="1597659940197" />
+    <state x="734" y="140" key="#Plugins" timestamp="1601800363514">
+      <screen x="0" y="23" width="2048" height="1042" />
+    </state>
+    <state x="734" y="140" key="#Plugins/0.23.2048.1042@0.23.2048.1042" timestamp="1601800363513" />
+    <state x="828" y="198" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601798491534">
+      <screen x="0" y="23" width="2048" height="1042" />
+    </state>
+    <state x="828" y="198" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.2048.1042@0.23.2048.1042" timestamp="1601798491534" />
+    <state x="1060" y="255" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599227022287">
+      <screen x="0" y="23" width="2048" height="1042" />
+    </state>
+    <state x="1060" y="255" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2048.1042@0.23.2048.1042" timestamp="1599227022287" />
+    <state x="781" y="366" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601798622780">
+      <screen x="0" y="23" width="2048" height="1042" />
+    </state>
+    <state x="781" y="366" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2048.1042@0.23.2048.1042" timestamp="1601798622780" />
+    <state x="621" y="234" key="IDE.errors.dialog" timestamp="1601799075821">
+      <screen x="0" y="23" width="2048" height="1042" />
+    </state>
+    <state x="621" y="234" key="IDE.errors.dialog/0.23.2048.1042@0.23.2048.1042" timestamp="1601799075821" />
+    <state x="352" y="23" key="SettingsEditor" timestamp="1601800338905">
+      <screen x="0" y="23" width="2048" height="1042" />
+    </state>
+    <state x="352" y="23" key="SettingsEditor/0.23.2048.1042@0.23.2048.1042" timestamp="1601800338905" />
+  </component>
+</project>
