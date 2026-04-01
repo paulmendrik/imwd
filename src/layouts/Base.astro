@@ -1,0 +1,18 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import { siteConfig } from "../utils/site.config";
+import type { SiteMeta } from "../utils/types";
+import "../styles/global.css";
+
+interface Props {
+  meta: SiteMeta;
+}
+
+const {
+  meta: { description = siteConfig.description, ogImage, title },
+} = Astro.props;
+---
+
+<html class="scroll-smooth" lang={siteConfig.lang}>
+  <BaseHead description={description} ogImage={ogImage} title={title} />
+</html>

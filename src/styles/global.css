@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui";
+
+
+@theme {
+  --font-bodoni: "Bodoni Moda", serif;
+}
+

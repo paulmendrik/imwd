@@ -1,0 +1,75 @@
+---
+
+import * as  EcologyText from "../content/eco-friendly websites.md";
+import * as  EnvironmentText from "../content/environmental sustainability.md";
+import * as  CustomerText from "../content/enhanced customer experience.md";
+import * as  SearchText from "../content/search engine performance.md";
+import * as  TechnologyText from "../content/technologies.md";
+import Ecology from '../svg/ecology.svg';
+import Environment from '../svg/environment.svg';
+import Customer from '../svg/customer.svg';
+import Search from '../svg/search.svg';
+import Technology from '../svg/technology.svg';
+
+---
+
+<section class="flex justify-center w-full bg-[#C6D4A3] lg:px-0 px-4 lg:py-24 py-12">
+<div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-6 gap-0 items-center justify-items-center lg:max-w-5xl w-full">
+<div class="item prose prose-xl text-black  w-full lg:order-1 order-2">
+<h2 class="prose text-black">{EcologyText.frontmatter.title}</h2>
+{EcologyText.rawContent()}
+</div>
+<div class="item w-full lg:order-2 order-1">
+<Ecology/>
+</div>
+</div>
+</section>
+
+<section class="flex justify-center w-full bg-[#C6D4A3] lg:px-0 px-4 lg:pb-24">
+<div class="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center justify-items-center lg:max-w-5xl w-full">
+<div class="item w-full order-1">
+<Environment/>
+</div>
+<div class="item prose prose-xl text-black w-full order-2">
+<h2 class="prose text-black">{EnvironmentText.frontmatter.title}</h2>
+{EnvironmentText.rawContent()}
+</div>
+</div>
+</section>
+
+<section class="flex justify-center w-full bg-[#C6D4A3] lg:px-0 px-4 lg:pb-24">
+<div class="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center justify-items-center lg:max-w-5xl w-full">
+<div class="item prose prose-xl text-black w-full order-1">
+<h2 class="prose text-black">{CustomerText.frontmatter.title}</h2>
+{CustomerText.rawContent()}
+</div>
+<div class="item w-full order-2">
+<Customer/>
+</div>
+</div>
+</section>
+
+<section class="flex justify-center w-full bg-[#C6D4A3] lg:px-0 px-4 lg:pb-24" >
+<div class="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center justify-items-center lg:max-w-5xl w-full">
+<div class="item w-full order-1">
+<Search/>
+</div>
+<div class="item prose prose-xl text-black w-full order-2">
+<h2 class="prose text-black">{SearchText.frontmatter.title}</h2>
+{SearchText.rawContent()}
+</div>
+</div>
+</section>
+
+<section class="flex justify-center w-full bg-[#C6D4A3] lg:px-0 px-4 lg:pb-24">
+<div class="grid lg:grid-cols-2 grid-cols-1 gap-6 items-center justify-items-center lg:max-w-5xl w-full">
+<div class="item prose prose-xl text-black w-full order-1">
+<h2 class="prose text-black">{TechnologyText.frontmatter.title}</h2>
+{TechnologyText.rawContent()}
+</div>
+<div class="item w-full order-2">
+<Technology/>
+</div>
+</div>
+</section>
+

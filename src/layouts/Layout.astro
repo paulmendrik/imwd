@@ -1,0 +1,31 @@
+---
+import BaseHead from "@/components/BaseHead.astro";
+import { siteConfig } from "@/utils/site.config";
+import type { SiteMeta } from "@/utils/types";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+
+interface Props {
+  meta: SiteMeta;
+}
+
+const {
+  meta: { description = siteConfig.description, ogImage, title },
+} = Astro.props;
+---
+
+<!doctype html>
+<html class="scroll-smooth" lang={siteConfig.lang}>
+<head>
+<BaseHead description={description} ogImage={ogImage} title={title} />
+</head>
+<body class=" bg-[#193311] flex flex-col h-svh">
+<Header/>
+<main class="grow">
+<slot />
+<script src="@/utils/scroll.js"></script>
+</main>
+<Footer/>
+</body>
+</html>
+

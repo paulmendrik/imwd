@@ -1,0 +1,35 @@
+---
+import { join } from "node:path";
+import { AstroFont } from "astro-font";
+---
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet"
+/>
+
+<AstroFont
+  config={[
+    {
+      name: "Charter",
+      src: [
+        {
+          style: "normal",
+          weight: "400",
+          path: join(process.cwd(), "public", "fonts", "charter_regular.woff2"),
+        },
+        {
+          style: "bold",
+          weight: "600",
+          path: join(process.cwd(), "public", "fonts", "charter_bold.woff2"),
+        },
+      ],
+      preload: false,
+      display: "swap",
+      selector: "body",
+      fallback: "serif",
+    },
+  ]}
+/>

@@ -1,0 +1,16 @@
+---
+import * as  HeroText from "../content/low carbon web design.md";
+import Intro from "../svg/intro.svg";
+---
+
+<section class=" flex justify-center  w-full bg-[#193311] lg:py-24 py-12 lg:px-0 px-4" id="top">
+<div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-6 gap-0 items-center justify-items-center lg:max-w-5xl mx-auto w-full">
+<div class="item  w-full order-1">
+<Intro/>
+</div>
+<div class="item prose prose-xl text-white  w-full order-2">
+<h2 class=" prose text-white">{HeroText.frontmatter.title}</h2>
+{HeroText.rawContent()}
+</div>
+</div>
+</section>

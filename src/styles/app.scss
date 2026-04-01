@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+
+html,
+body {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100%;
+  font-size: 1.125rem !important;
+  line-height: 1.65 !important;
+}
+
+header {
+  transition: transform 0.35s ease;
+}
+
+.navbar {
+  transition: height 0.3s ease;
+}
+
+section {
+  scroll-snap-align: start;
+  min-height: 100dvh;
+  scroll-margin-top: 64px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  overflow: hidden;
+}
+
+[class*="svg"] svg,
+.item svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+h1 {
+  margin: 1rem 0 !important;
+  font-size: 2rem !important;
+  line-height: 1.65 !important;
+}
+
+h2 {
+  margin: 1rem 0 !important;
+  padding: 0 !important;
+  font-size: 1.75rem !important;
+  font-weight: 500 !important;
+  line-height: 1;
+}
+
+h3 {
+  font-weight: 500 !important;
+}
+
+
+p {
+  line-height: 1.5 !important;
+}
+
+.post {
+  opacity: 0;
+}
+
+
+.active {
+  animation: scaleIn 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+    transform-origin: 50% 0%;
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(-1000px);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.contact {
+  --ac-modal-backdrop-color: #000000 !important;
+  --ac-modal-backdrop-filter: greyscale(50%) !important;
+
+}
