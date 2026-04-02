@@ -7,7 +7,7 @@ export default defineConfig({
 output: 'static',
 adapter: netlify(),
 image: { remotePatterns: [{ protocol: 'https', hostname: 'cdn.sanity.io', }] },
-site: 'https://www.imouse.net',
+site: 'https://www.imwd.dev',
 vite: {plugins: [tailwindcss()],},
 integrations: [
 react(),

@@ -1,66 +1,92 @@
-
 ---
-import { Modal, ModalHeader, ModalBody, } from 'free-astro-components'
+import { Modal, ModalHeader, ModalBody, ModalFooter } from 'free-astro-components';
 ---
 
+<!-- Contact Form Modal -->
+<Modal id="contact-modal" class="contact relative mx-auto mt-10" size="lg">
+  <ModalHeader class="text-center">
+    <img class="h-8 mx-auto my-4" src="./logo.svg" alt="Logo" />
+    <h4>Contact Us</h4>
+    <p>We'll be happy to hear from you!</p>
+  </ModalHeader>
+  <ModalBody>
+    <form id="contact" data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" action="/">
+      <p class="hidden">
+        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+      </p>
+      <input type="hidden" name="form-name" value="contact" />
 
-<Modal id="contact-modal" class=" contact relative mx-auto mt-10" size="lg">
-<ModalHeader class="text-center">
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm/6 font-medium mb-1.5">First Name</label>
+        <input name="first-name" class="w-full bg-white rounded-md outline-1 outline-gray-300 p-1.5 text-sm/6 text-gray-700 placeholder:text-gray-400 focus:outline-none" type="text" placeholder="First Name" required>
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm/6 font-medium mb-1.5">Last Name</label>
+        <input name="last-name" class="w-full bg-white rounded-md outline-1 outline-gray-300 p-1.5 text-sm/6 text-gray-700 placeholder:text-gray-400 focus:outline-none" type="text" placeholder="Last Name" required>
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-medium mb-1.5">Email</label>
+        <input name="email" class="w-full bg-white rounded-md outline-1 outline-gray-300 p-1.5 text-sm/6 text-gray-700 placeholder:text-gray-400 focus:outline-none" type="email" placeholder="Email" required>
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-medium mb-1.5">Phone</label>
+        <input name="phone" class="w-full bg-white rounded-md outline-1 outline-gray-300 p-1.5 text-sm/6 text-gray-700 placeholder:text-gray-400 focus:outline-none" type="text" placeholder="Phone" required>
+      </div>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-medium mb-1.5">Message</label>
+        <textarea name="message" rows="3" class="block w-full rounded-md bg-white p-1.5 text-sm/6 text-gray-900 outline-1 outline-gray-300 placeholder:text-gray-400 sm:text-sm/6" placeholder="Message" required></textarea>
+      </div>
 
-<img class="h-8 mx-auto my-4" src="./logo.svg" alt="Logo" />
-<h4>Contact Us</h4>
-<p>We'll be happy to hear from you!</p>
-</ModalHeader>
-<ModalBody>
-<form id="contact" data-netlify="true" netlify-honeypot name="contact" method="POST" action="/success">
-<p class="hidden"><label>Don’t fill this out if you’re human: <input name="bot-field" /></label></p>
-<input type="hidden" name="contact" value="contact" />
-
-<div class="mb-4">
-<label class="block text-gray-700 text-sm/6 font-medium mb-1.5" for="firstname">
-First Name
-</label>
-<input id="first-name" class=" w-full bg-white rounded-md outline-1 outline-gray-300 p-1.5 text-sm/6 text-gray-700 placeholder:text-gray-400 focus:outline-none" type="text" placeholder="First Name" required>
-</div>
-<div class="mb-4">
-<label class="block text-gray-700 text-sm/6 font-medium mb-1.5" for="lastname">
-Last Name
-</label>
-<input id="last-name" class=" w-full bg-white rounded-md outline-1 outline-gray-300 p-1.5  text-sm/6 text-gray-700 placeholder:text-gray-400 focus:outline-none" type="text" placeholder="Last Name" required>
-</div>
-<div class="mb-4">
-<label class="block text-gray-700 text-sm font-medium mb-1.5" for="email">
-Email
-</label>
-<input id="email" class=" w-full bg-white rounded-md outline-1 outline-gray-300 p-1.5 text-sm/6 text-gray-700 placeholder:text-gray-400 focus:outline-none" type="text" placeholder="Email" required>
-</div>
-<div class="mb-4">
-<label class="block text-gray-700 text-sm font-medium mb-1.5" for="phone">
-Phone
-</label>
-<input id="phone" class=" w-full bg-white rounded-md outline-1 outline-gray-300 p-1.5 text-sm/6 text-gray-700 placeholder:text-gray-400 focus:outline-none" type="text" placeholder="Phone" required>
-</div>
-<div class="mb-4">
-<label class="block text-gray-700 text-sm font-medium mb-1.5" for="message">
-Message
-</label>
-<textarea id="message name="message" rows="3" class="block w-full rounded-md bg-white p-1.5 text-sm/6 text-gray-900 outline-1  outline-gray-300 placeholder:text-gray-400 sm:text-sm/6" placeholder="Message" required></textarea>
-</div>
-
-<div class="p-4 text-center">
-<button type="submit" class="btn btn-neutral mx-auto">Send Message</button>
-</div>
-
-</form>
-</ModalBody>
+      <div class="p-4 text-center">
+        <button type="submit" class="btn btn-neutral mx-auto">Send Message</button>
+      </div>
+    </form>
+  </ModalBody>
 </Modal>
 
+<!-- Success Modal -->
+<Modal id="success-modal" size="sm" class="m-auto">
+  <ModalHeader class="text-center">
+    <h4 class="prose text-black">Message Sent!</h4>
+  </ModalHeader>
+  <ModalBody>
+    <p class="text-center text-sm text-gray-600 pb-4">Thanks we received your message — we'll get back to you as soon as possible.</p>
+  </ModalBody>
+  <ModalFooter>
+    <div class="w-full text-center">
+      <button class="btn btn-sm btn-neutral" data-modal-close>Close</button>
+    </div>
+  </ModalFooter>
+</Modal>
 
+<script>
+  import { closeModal, openModal } from 'free-astro-components';
 
+  const form         = document.getElementById('contact') as HTMLFormElement;
+  const contactModal = document.querySelector('#contact-modal') as HTMLElement;
+  const successModal = document.querySelector('#success-modal') as HTMLElement;
 
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
 
+    const data = new FormData(form);
 
+    try {
+      const res = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(data as any).toString(),
+      });
 
+      if (!res.ok) throw new Error('Server error');
 
+      closeModal(contactModal);
+      form.reset();
+      setTimeout(() => openModal(successModal), 300);
 
-
+    } catch {
+      // You could open an error modal here too if you want
+      alert('Something went wrong. Please try again.');
+    }
+  });
+</script>
