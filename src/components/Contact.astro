@@ -10,10 +10,8 @@ import { Modal, ModalHeader, ModalBody, ModalFooter } from 'free-astro-component
     <p>We'll be happy to hear from you!</p>
   </ModalHeader>
   <ModalBody>
-    <form id="contact" data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" action="/">
-      <p class="hidden">
-        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-      </p>
+    <form id="contact" data-netlify="true" netlify-honeypot="bot-field" name="contact" method="POST" >
+      <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field" /></label></p>
       <input type="hidden" name="form-name" value="contact" />
 
       <div class="mb-4">
