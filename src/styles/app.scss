@@ -2,8 +2,7 @@
 
 html,
 body {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+  overscroll-behavior: none;
   height: 100%;
   font-size: 1.125rem !important;
   line-height: 1.65 !important;
@@ -11,6 +10,10 @@ body {
 
 header {
   transition: transform 0.35s ease;
+}
+
+footer {
+  margin-top: auto;
 }
 
 .navbar {
